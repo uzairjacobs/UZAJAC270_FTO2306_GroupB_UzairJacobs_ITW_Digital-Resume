@@ -93,3 +93,23 @@ font-size: 1rem;
   font-size: 1rem;
 }
 
+ .logo-linkedin {
+  background-image: url("images/linkedin-logo.png");
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+ }
+
+ .logo-github {
+  background-image: url("images/github-logo.png");
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+ }
+
+ .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+ }
