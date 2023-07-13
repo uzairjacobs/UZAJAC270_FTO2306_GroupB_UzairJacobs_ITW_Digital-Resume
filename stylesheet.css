@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #344e41;
   color: #dad7cd;
+  font-size: small;
 }
 
 .hero {
@@ -72,8 +73,25 @@ border-radius: 50%;
 border: solid white 3px;
 }
 
+main h2 {
+  font-size: small;
+  color: #a3b18a;
+}
+
+ul {
+  font-size: smaller;
+}
+
+p {
+  font-size: smaller;
+}
+h3 {
+  font-size: smaller;
+}
+
+
 main {
-  margin: 3rem;
+  margin: 6rem;
 }
 
 section {
@@ -113,3 +131,36 @@ font-size: 1rem;
   justify-content: center;
   gap: 3rem;
  }
+
+footer {
+  background-color: #161a1d;
+  padding: 3rem;
+  margin: -2rem;
+}
+
+#back-to-top > button{
+  background-color: #dad7cd;
+  border-radius: 50%;
+  border: solid 1px #dad7cd;
+  width: 50px;
+  height: 50px;
+}
+#back-to-top:hover > button {
+  border: solid 1px #dad7cd;
+  background-color: white;
+  
+}
+#back-to-top > button {
+  text-decoration: none;
+  color: #344e41;
+}
+#back-to-top:hover > button {
+  text-decoration: none;
+  color: #dad7cd;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  }
