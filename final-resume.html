@@ -1,120 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="favicon" href="images\favicon.ico">
-</head>
-<body>
-    <header class="header">
-        <h1>Uzair Jacobs</h1>
-        <h2>CodeSpace Student</h2>
-
-    </header>
-   
-
-    <nav id ="navbar">
-        <a class="nav-link" href="#career">Career Objective</a>
-        <a class="nav-link" href="#education">Education</a>
-        <a class="nav-link" href="#experience">Experience</a>
-        <a class="nav-link" href="#skills">Skills</a>
+<html>
+  <head>
+    <title>Uzair's Resume</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li><a class="nav-link" href="#career">Career Objective</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#experience">Experience</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+      </ul>
     </nav>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Uzair Jacobs</h1>
+        <img
+          src="images\me_resume2.jpg"
+          alt="resume-photo"
+          class="resume-image"
+          width="400"
+          height="400"
+        />
+        <h2>CodeSpace Student</h2>
+      </div>
+    </section>
+    <main class="main-body">
+      <section class="introduction">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          magnam adipisci ipsum enim accusantium officiis labore omnis
+          obcaecati, nemo aliquam?
+        </p>
+      </section>
 
-    
+      <br>
 
-    <aside class="aside"> 
+      <section class="career">
+        <h2>Career Objectives</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          animi ducimus voluptatum provident eveniet, ullam dolor sapiente
+          cumque magni beatae.
+        </p>
+      </section>
 
-    <div class="resume-image">
-        <img src="images\me_resume2.jpg" alt="Resume Photo" width="200px">
-    </div>
+      <br>
 
-    <div class="introduction">
-        <h2>Personal Profile</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam adipisci ipsum enim accusantium officiis labore omnis obcaecati, nemo aliquam?</p>
-    </div>
-
-    <div class="contact-details"></div>
-
-    <h2>Contact Details</h2>
-    <h4>Phone:</h4>
-    <p>0814143800</p>
-    <h4>Email:</h4>
-    <p>uzair.jac23@gmail.com</p>
-
-    <br>
-
-    <h2>Get in Contact:</h2>
-
-    
-    <form action="https://formsubmit.co/uzair.jac23@gmail.com" method="post">
-
-        <input type="email" name="email" id="" placeholder="email address">
-
-        <br>
-
-        <select name="_subject" id="subject">
-            <option value="Constructive Critiscim">Constructive Critiscim</option>
-            <option value="Compliments">Compliments</option>
-        </select>
-
-        <br>
-
-        <textarea name="message" id="text" cols="30" rows="10" placeholder="message here please"></textarea>
-
-        <br>
-
-        <input class="submit" type="submit" value="Send">
-
-     </form>
-
-     <div class="social-links">
-
-       <h2>Social Media</h2>
-       <ul>
-         <li><a href="https://www.linkedin.com/in/uzair-jacobs-77336124b" target="_blank"> LinkedIn</a> </li>
-         <li><a href="https://github.com/uzairjacobs" target="_blank"> Github </a> </li>
-       </ul>
-     </div>
-
-    </aside>
-
-    <br>
-
-     <article class="article">
-
-        <h2 id="career">Career Objectives</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi ducimus voluptatum provident eveniet, ullam dolor sapiente cumque magni beatae.</p>
-
-        <h2 id="education">Education</h2>
+      <section class="education">
+        <h2>Education</h2>
         <ul>
-            <li>Rondebosch Boys Highschool</li>
-            <li> <a href="https://www.codespace.co.za" target ="_blank">CodeSpace</a></li>
+          <li>Rondebosch Boys Highschool</li>
+          <li>
+            <a href="https://www.codespace.co.za" target="_blank">CodeSpace</a>
+          </li>
         </ul>
+      </section>
 
-        <h2 id="experience">Experience</h2>
+      <br>
+
+      <section class="experience">
+        <h2>Experience</h2>
         <ul>
-            <li>Manager at restaurant Khao Hom Halal Thai Cuisine</li>
-            <li>Wrangling work done for movie production</li>
+          <li>Manager at restaurant Khao Hom Halal Thai Cuisine</li>
+          <li>Wrangling work done for movie production</li>
         </ul>
-        <h2 id="skills">Skills</h2>
+      </section>
+
+      <br>
+
+      <section class="skills">
+        <h2>Skills</h2>
         <h3>Technical Skills:</h3>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </ul>
         <h3>Personal Skills:</h3>
         <ul>
-            <li>Communication</li>
-            <li>Management</li>
-            <li>Customer Service</li>
-            <li>Teamwork</li>
+          <li>Communication</li>
+          <li>Management</li>
+          <li>Customer Service</li>
+          <li>Teamwork</li>
         </ul>
-    </article>
+      </section>
+    </main>
 
-    <footer class="footer">
-        <p>Uzair Jacobs CV 2023</p>
+    <br>
+
+    <footer>
+        <h3>Contact Me</h3>
+
+        <div class="contact">
+        <form action="https://formsubmit.co/uzair.jac23@gmail.com" method="post">
+            
+
+           <input type="email" name="email" class ="text-box" placeholder="email address">
+
+           <br>
+
+           <select name="_subject" class ="text-box" >
+               <option value="Criticism">Criticism</option>
+               <option value="Compliments">Compliments</option>
+           </select>
+
+           <br>
+
+           <textarea name="message" class="text-box" cols="40" rows="6" placeholder="message here please"></textarea>
+
+           <br>
+
+           <input class="submit" type="submit" value="Send">
+
+
+         </form>
+    </div>
     </footer>
-</body>
+  </body>
 </html>
