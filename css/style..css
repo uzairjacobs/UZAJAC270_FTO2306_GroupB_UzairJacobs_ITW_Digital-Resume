@@ -9,7 +9,7 @@ body {
 
 .hero {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
 
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
   text-align: center;
   color: white;
 
-  background-image: url(images/hero-img.jpeg);
+  background-image: url("../images/hero-img.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -46,8 +46,6 @@ body {
   align-items: center;
   justify-content: center;
   justify-content: space-around;
-
- 
 }
 
 #navbar * {
@@ -56,7 +54,6 @@ body {
 
 #navbar li {
   margin: 10px;
-  
 }
 
 #navbar li a {
@@ -98,14 +95,14 @@ section {
 }
 
 .logo-linkedin {
-  background-image: url("images/linkedin-logo.png");
+  background-image: url("../images/linkedin-logo.png");
   background-size: 100px;
   width: 100px;
   height: 100px;
 }
 
 .logo-github {
-  background-image: url("images/github-logo.png");
+  background-image: url("../images/github-logo.png");
   background-size: 100px;
   width: 100px;
   height: 100px;
@@ -151,7 +148,7 @@ footer {
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
   body {
     font-size: larger;
   }
@@ -168,16 +165,19 @@ footer {
   main h2 {
     font-size: 2rem;
   }
-  
+
   ul {
     font-size: large;
   }
-  
+
   p {
     font-size: large;
   }
   h3 {
     font-size: large;
+  }
+  .hero {
+    height: 60vh;
   }
 }
 
@@ -194,7 +194,6 @@ footer {
   }
   .introduction {
     grid-area: sidebar;
-    
   }
   .content {
     border-left: 1px inset #161a1d;
@@ -216,16 +215,18 @@ footer {
   main h2 {
     font-size: 2rem;
   }
-  
+
   ul {
     font-size: large;
   }
-  
+
   p {
     font-size: large;
   }
   h3 {
     font-size: large;
   }
-  
+  .hero {
+    height: 80vh;
+  }
 }
