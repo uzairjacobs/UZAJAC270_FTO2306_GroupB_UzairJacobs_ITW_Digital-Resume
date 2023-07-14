@@ -4,141 +4,127 @@ body {
   padding: 0;
   background-color: #344e41;
   color: #dad7cd;
-  font-size: small;
+  font-size: medium;
 }
 
 .hero {
+  width: 100%;
+  height: 80vh;
 
-width: 100vw;
-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  text-align: center;
+  color: white;
 
-display: flex;
-justify-content: center;
-align-items: center;
-
-
-text-align: center;
-color: white; 
-
-
-background-image: url(images/mint-green.jpg);
-background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: fixed;
+  background-image: url(images/hero-img.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .hero h1 {
-
-font-size: 5rem;
-margin-bottom: 0.5em;
+  font-size: 3rem;
+  margin-bottom: 0.5em;
 }
 
 .hero h2 {
-font-size: 3rem;
+  font-size: 1.5rem;
 }
 
-
 #navbar {
-position: fixed;
-background-color: #161a1d;
-top: 0;
-left: 0;
-right: 0;
-height: 80px;
-display: flex;
-flex-direction: row;
-align-items: center;
+  position: fixed;
+  background-color: #161a1d;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
 
-font-size: 2rem;
+ 
 }
 
 #navbar * {
-display: inline;
+  display: inline;
 }
 
 #navbar li {
-margin: 20px;
-
+  margin: 10px;
+  
 }
 
 #navbar li a {
-text-decoration: none;
-color: #dad7cd;
+  text-decoration: none;
+  color: #dad7cd;
 }
 
 .resume-image {
-border-radius: 50%;
-border: solid white 3px;
+  border-radius: 50%;
+  border: solid white 3px;
 }
 
 main h2 {
-  font-size: small;
+  font-size: medium;
   color: #a3b18a;
 }
 
 ul {
-  font-size: smaller;
+  font-size: small;
 }
 
 p {
-  font-size: smaller;
+  font-size: small;
 }
 h3 {
-  font-size: smaller;
+  font-size: small;
 }
-
 
 main {
-  margin: 6rem;
-}
-
-section {
   margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 2rem;
 }
 
-footer {
-  margin: 1rem;
+section {
+  margin-top: 1rem;
+  margin-bottom: 1em;
 }
 
-.text-box {
-font-size: 1rem;
-}
-
-.submit {
-  font-size: 1rem;
-}
-
- .logo-linkedin {
+.logo-linkedin {
   background-image: url("images/linkedin-logo.png");
   background-size: 100px;
   width: 100px;
   height: 100px;
- }
+}
 
- .logo-github {
+.logo-github {
   background-image: url("images/github-logo.png");
   background-size: 100px;
   width: 100px;
   height: 100px;
- }
-
- .social {
+}
+.social {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 3rem;
- }
+}
 
 footer {
   background-color: #161a1d;
-  padding: 3rem;
-  margin: -2rem;
+  padding: 4rem;
+  margin: 0;
+  margin-bottom: -11rem;
 }
 
-#back-to-top > button{
+#back-to-top > button {
   background-color: #dad7cd;
   border-radius: 50%;
   border: solid 1px #dad7cd;
@@ -148,7 +134,6 @@ footer {
 #back-to-top:hover > button {
   border: solid 1px #dad7cd;
   background-color: white;
-  
 }
 #back-to-top > button {
   text-decoration: none;
@@ -163,4 +148,84 @@ footer {
   position: fixed;
   bottom: 80px;
   right: 80px;
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: larger;
   }
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+  #navbar li {
+    font-size: large;
+  }
+  main h2 {
+    font-size: 2rem;
+  }
+  
+  ul {
+    font-size: large;
+  }
+  
+  p {
+    font-size: large;
+  }
+  h3 {
+    font-size: large;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1024px) {
+  body {
+    font-size: large;
+  }
+  .main-body {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30rem;
+    grid-template-areas: "sidebar content";
+  }
+  .introduction {
+    grid-area: sidebar;
+    
+  }
+  .content {
+    border-left: 1px inset #161a1d;
+    grid-area: content;
+  }
+  .box {
+    padding: 3rem;
+  }
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+  #navbar li {
+    font-size: large;
+  }
+  main h2 {
+    font-size: 2rem;
+  }
+  
+  ul {
+    font-size: large;
+  }
+  
+  p {
+    font-size: large;
+  }
+  h3 {
+    font-size: large;
+  }
+  
+}
