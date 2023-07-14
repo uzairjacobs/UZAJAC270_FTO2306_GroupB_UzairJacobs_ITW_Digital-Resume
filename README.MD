@@ -1,4 +1,4 @@
-# UZAJAC270_FTO2306_GroupB_UzairJacobs_ITW_Digital-Resume
+# UZAJAC270_FTO2306_GroupB_UzairJacobs_ITW_Final_Digital_Resume
 
  Website code for CodeSpace's Digital Resume Project
 
