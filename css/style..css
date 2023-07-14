@@ -109,9 +109,12 @@ section {
 }
 .social {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   gap: 3rem;
+  position: absolute;
+  top: 20rem;
+  right: 4rem;
 }
 
 footer {
@@ -148,8 +151,34 @@ footer {
 }
 
 form {
-  border: 1px inset #344e41 ;
+  border: 1px inset #344e41;
   width: 20rem;
+}
+
+#to-contact-section {
+  text-align: left;
+  border: #dad7cd;
+}
+
+#to-contact-section > button {
+  border-radius: 20%;
+  background-color: #161a1d;
+  border: solid 1px #dad7cd;
+  width: 7rem;
+  height: 5rem;
+  font-size: 1rem;
+}
+#to-contact-section:hover > button {
+  border: solid 1px #dad7cd;
+  background-color: #161a1d;
+}
+#to-contact-section > button {
+  text-decoration: none;
+  color: #344e41;
+}
+#to-contact-section > button {
+  text-decoration: none;
+  color: #dad7cd;
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -182,7 +211,7 @@ form {
     font-size: large;
   }
   .hero {
-    height: 60vh;
+    height: 80vh;
   }
 }
 
@@ -232,6 +261,6 @@ form {
     font-size: large;
   }
   .hero {
-    height: 80vh;
+    height: 100vh;
   }
 }
