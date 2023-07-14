@@ -189,7 +189,7 @@ footer {
   .main-body {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 30rem;
+    grid-template-columns: 25rem;
     grid-template-areas: "sidebar content";
   }
   .introduction {
@@ -200,7 +200,7 @@ footer {
     grid-area: content;
   }
   .box {
-    padding: 3rem;
+    padding: 4rem;
   }
   .hero h1 {
     font-size: 4rem;
