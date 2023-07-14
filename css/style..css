@@ -147,6 +147,11 @@ footer {
   right: 80px;
 }
 
+form {
+  border: 1px inset #344e41 ;
+  width: 20rem;
+}
+
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) {
   body {
