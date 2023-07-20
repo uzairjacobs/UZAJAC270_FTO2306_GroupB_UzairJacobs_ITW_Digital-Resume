@@ -4,7 +4,6 @@ body {
   padding: 0;
   background-color: #344e41;
   color: #dad7cd;
-  font-size: medium;
 }
 
 .hero {
@@ -42,9 +41,7 @@ body {
   right: 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
-  justify-content: space-around;
 }
 
 #navbar * {
@@ -52,7 +49,7 @@ body {
 }
 
 #navbar li {
-  margin: 10px;
+  margin: 20px;
 }
 
 #navbar li a {
@@ -83,8 +80,8 @@ h3 {
 
 main {
   margin-top: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -177,8 +174,6 @@ form {
   border: solid 1px #dad7cd;
   background-color: gray;
 }
-
-
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) {
